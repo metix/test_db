@@ -36,7 +36,7 @@ DROP TABLE IF EXISTS dept_emp,
                      departments;
 
 set default_storage_engine = columnstore;
-set infinidb_compression_type = 1;
+set infinidb_compression_type = 2;
 /*!50503 select CONCAT('storage engine: ', @@default_storage_engine) as INFO */;
 
 CREATE TABLE employees (
